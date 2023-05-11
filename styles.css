@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(images/bg.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.nav{
+    display: flex;
+    width: 88%;
+    align-items: center;
+    justify-content: space-between ;
+     padding: 15px 0;
+     margin: auto;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: rgb(115, 106, 41);
+}
+.image{
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.heading{
+    padding-top: 100px;
+    margin-left: 50px;
+    font-size: 1.8rem;
+    color: white;
+}
+.click i{
+    color: white;
+    font-size: 2.5em;
+    
+}
+.click{
+    float: right;
+    margin-right: 6%;
+    margin-top: -50px;
+    display: flex;
+    align-items: center;
+}
+.click p{
+    font-size: 15px;
+    color: rgb(126, 124, 97);
+    margin-right: 15px;
+}
